@@ -35,7 +35,13 @@ The data munging and cleaning took quite a while, so I was excited when I got al
 ![alt text](https://github.com/abhisekswain/movie-user-ratings/blob/master/plots/residuals_ols.png "Residuals")  
 ![alt text](https://github.com/abhisekswain/movie-user-ratings/blob/master/plots/predicted_vs_actual.png "Predicted vs Actuals")  
 
-The next step was to use more advanced methods 
+After the intial analysis, I decided to use Lassor regression with cross-validation. I chose Lasso over Ridge as there were a large number of categorical variables in my dataset and Lasso does a good job of seeting those to zero. The score I obtained for Lasso, was 0.62 and the top features are shown below:
+1. ratingnum - number of people who rated the movie
+2. meta_score
+3. Drama
+4. runtime
+5. mpaa_rating[T.R]
+
 
 
 

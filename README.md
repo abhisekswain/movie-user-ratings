@@ -32,9 +32,11 @@ In the end I had exactly 100 features. The ipython notebook "movie_user_rating_m
 
 The data munging and cleaning took quite a while, so I was excited when I got all the data ready for modelling. I first ran Oridinary Least Squares (OLS) regression, which yielded an R-squared value of 0.72. But there were a number of p-values greater than 0.05. I also looked at the residuals, the output and the Q-Q plot to doa sanity check and confirm that there was not heteroskedasticity present. Below are 3 plots:
 
-![alt text](https://github.com/abhisekswain/movie-user-ratings/blob/master/plots/residuals_ols.png "Residuals") 
+![alt text](https://github.com/abhisekswain/movie-user-ratings/blob/master/plots/residuals_ols.png "Residuals")  
+
 ![alt text](https://github.com/abhisekswain/movie-user-ratings/blob/master/plots/predicted_vs_actual.png "Predicted vs Actuals")  
-![alt text](https://github.com/abhisekswain/movie-user-ratings/blob/master/plots/Q-Q_plot.png "Q-Q plot") 
+
+![alt text](https://github.com/abhisekswain/movie-user-ratings/blob/master/plots/Q-Q_plot.png "Q-Q plot")  
 
 
 

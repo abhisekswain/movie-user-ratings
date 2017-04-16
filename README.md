@@ -12,6 +12,16 @@ I started by getting a sense for what movie data is publicly available for scrap
 
 I started with using BeautifulSoup, but later switched to scrapy, which had a a little longer to learn, but was easier to use once I learnt it. My target variable for this project was the IMDb Rating for each movie. In my opinion, this is a good indicator of audience likeability for any movie. After combining all the scraping data, which was in 3 csv files, I ended up with 1400+ movies.
 
+**Feature selection**  
+
+I created a feature set consisting of a mix of numerical and categorical variables. My numerical features were:  
+1. Number of ratings  
+2. Meta-critic score (out of 100)  
+3. Runtime
+4. Budget
+
+The budget was adjusted for inflation using the cpi data as the original data reported budget, the year the movie was released.
+
 
 
 

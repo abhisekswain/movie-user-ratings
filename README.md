@@ -8,7 +8,7 @@ This is the question I set out to answer for my second project of Metis. I have 
 
 **Scrapy**
 
-I started by getting a sense for what movie data is publicly available for scraping. I scraped IMDB for all movies release in the US between 1973 and 2016, the-numbers.com and downloaded consumer price index(cpi) data from [I'm an inline-style link](https://www.bls.gov/cpi). This lead me to a relatively comprehensive source for the features I was looking to use.
+I started by getting a sense for what movie data is publicly available for scraping. I scraped IMDB for all movies release in the US between 1973 and 2016, the-numbers.com and downloaded consumer price index(cpi) data from [https://www.bls.gov/cpi](https://www.bls.gov/cpi). This lead me to a relatively comprehensive source for the features I was looking to use.
 
 I started with using BeautifulSoup, but later switched to scrapy, which had a a little longer to learn, but was easier to use once I learnt it. My target variable for this project was the IMDb Rating for each movie. In my opinion, this is a good indicator of audience likeability for any movie. After combining all the scraping data, which was in 3 csv files, I ended up with 1400+ movies.
 

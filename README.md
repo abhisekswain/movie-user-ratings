@@ -20,7 +20,7 @@ I created a feature set consisting of a mix of numerical and categorical variabl
 3. Runtime
 4. Budget
 
-The budget was adjusted for inflation using the cpi data as the original data reported budget, the year the movie was released. My categorical features consisted of the following:
+The budget was adjusted for inflation using the cpi data as the original data reported budget for the year the movie was released. My categorical features consisted of the following:
 1. Top 20 grossing actors from 1970-2016
 2. Top 10 grossing directors from 1970-2016
 3. Year of release

@@ -35,6 +35,8 @@ The data munging and cleaning took quite a while, so I was excited when I got al
 ![alt text](https://github.com/abhisekswain/movie-user-ratings/blob/master/plots/residuals_ols.png "Residuals")  
 ![alt text](https://github.com/abhisekswain/movie-user-ratings/blob/master/plots/predicted_vs_actual.png "Predicted vs Actuals")  
 
+I 
+
 
 
 

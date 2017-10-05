@@ -42,10 +42,9 @@ After the intial analysis, I decided to use Lasso regression with cross-validati
 4. runtime
 5. mpaa_rating[T.R]
 
-**Conclusion**
+**Conclusion**  
 
-While it appears that highly rated movies and movies with higher critics ratings seems to have higher IMDb ratings, it is not obvious as the correlation matrix would have indicated. It is interesting to note that genres that contain Drama and movie runtime have a large affect on how much the audience likes a movie.
-
+It is interesting to note that movies that belong to the Drama genre and have longer runtime get higher ratings from audiences.
 
 
 
